@@ -1,14 +1,18 @@
-# tist-regreen-data-wrangling
+# Summer UROP 2023 - Carbon Credits
+
+All python code was written by me over 8 weeks in summer 2023. The R code and some comments were written by a collaborator.
+
+The code connects to a remote SQL Database via the config file. This is a private database.
 
 
 ### To get up and running: 
 
 Use "git clone" to get a copy of the project.
-Inside tist-regreen-data-wrangling/ use "pip install ." to install all the necessary packages. 
+Use "pip install ." to install all the necessary packages. 
 
-### All project code is inside TISTpolygons:
+### All project code is inside mainCode:
 
-#### TISTpolygons/run_pipelines/
+#### mainCode/run_pipelines/
 
 This contains the code to run. There are three working files:
 - gpkg_from_all_areas.py which creates a geopackage file of all the active polygons globally
@@ -18,7 +22,7 @@ This contains the code to run. There are three working files:
 
 There is also the file "config.py" which is where the information for connecting to Sherwood is stored. This will need to be edited for the appropriate user.
 
-#### TISTpolygons/lib
+#### mainCode/lib
 This contains all the source code for the project.
 
 ## Why does the code run on all areas?
