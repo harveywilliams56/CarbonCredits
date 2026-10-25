@@ -1,4 +1,4 @@
-from TISTpolygons.lib import utils, chunking, fix_polygons
+from mainCode.lib import utils, chunking, fix_polygons
 
 import logging
 import numpy as np
