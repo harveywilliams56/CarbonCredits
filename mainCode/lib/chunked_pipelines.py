@@ -1,7 +1,7 @@
 """This is for running chunked pipelines to further reduce memory.
 We assume that there is no overlap between polygons of different countries"""
 
-from TISTpolygons.lib import utils, chunking, fix_polygons, pipelines, queries
+from mainCode.lib import utils, chunking, fix_polygons, pipelines, queries
 
 import logging
 import numpy as np
