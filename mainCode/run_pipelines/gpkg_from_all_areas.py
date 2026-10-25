@@ -1,6 +1,6 @@
 import pandas as pd
 import geopandas as gpd
-from TISTpolygons.lib import utils, pipelines, fix_polygons, queries
+from mainCode.lib import utils, pipelines, fix_polygons, queries
 import config
 
 import sys
