@@ -1,4 +1,4 @@
-from TISTpolygons.lib.utils import polygon_area
+from mainCode.lib.utils import polygon_area
 from geopandas import GeoDataFrame
 from shapely import intersection
 from pandas import DataFrame
